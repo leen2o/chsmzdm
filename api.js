@@ -14,3 +14,4 @@
 //{ url: 'https://faxian.smzdm.com/9kuai9/json_more?filter=h3s0t0f0&page=2', type: 'hot', name: '24h白菜' },
 // 新增线报网监控
 { url: 'https://new.xianbao.fun/plus/json/rank/yixiaoshi-hot.json', type: 'xianbao', name: '线报网热门' },
+{ url: 'https://new.xianbao.fun/plus/json/rank/zuankeba-hot.json', type: 'xianbao', name: '线报网热门' },
