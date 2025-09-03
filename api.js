@@ -1,11 +1,6 @@
 // 精选内容 (首页和精选页面) - 更新API接口
-{ url: 'https://new.xianbao.fun/plus/json/push.json', type: 'xianbao', name: '线报网热门', list:'bmd' },
+{ url: 'https://new.xianbao.fun/plus/json/push.json', type: 'xianbao', name: '线报网', list:'bmd' },
 //{ url: 'https://m.smzdm.com/damo_theme/more_page?tag_id=t8joxpm&page=1&size=20&damo_hash_id=ay11g6z&damo_type=theme&tabs=%7B%22id%22%3A1732778802150%2C%22day%22%3A0%2C%22tab_type%22%3A%226%22%2C%22channel_ids%22%3A%2276%2C801%2C802%2C154%2C3%22%2C%22sort%22%3A%221%22%2C%22sub_tab%22%3A%7B%22id%22%3A1739168096519%2C%22channel_ids%22%3A%2276%2C801%2C154%2C3%2C802%22%2C%22sort%22%3A%221%22%7D%7D&f=web&device_id=', type: 'hot', name: '绝对值-什么值得买' , list:'bmd'},
 //{ url: 'https://m.smzdm.com/damo_theme/more_page?tag_id=t8602je&page=1&size=20&damo_hash_id=a8vvyom&damo_type=theme&tabs=%7B%22id%22%3A1732778802150%2C%22day%22%3A0%2C%22tab_type%22%3A%226%22%2C%22channel_ids%22%3A%2276%2C801%2C802%2C154%2C3%22%2C%22sort%22%3A%221%22%2C%22sub_tab%22%3A%7B%22id%22%3A1739168096519%2C%22channel_ids%22%3A%2276%2C801%2C154%2C3%2C802%22%2C%22sort%22%3A%221%22%7D%7D&f=web&device_id=', type: 'hot', name: '历史低价-什么值得买', list:'bmd'},
 //{ url: 'https://m.smzdm.com/damo_theme/more_page?tag_id=t8jnl0o&page=1&size=20&damo_hash_id=a677134&damo_type=theme&tabs=%7B%22id%22%3A1732778802150%2C%22day%22%3A0%2C%22tab_type%22%3A%226%22%2C%22channel_ids%22%3A%2276%2C801%2C802%2C154%2C3%22%2C%22sort%22%3A%221%22%2C%22sub_tab%22%3A%7B%22id%22%3A1739168096519%2C%22channel_ids%22%3A%2276%2C801%2C154%2C3%2C802%22%2C%22sort%22%3A%221%22%7D%7D&f=web&device_id=', type: 'hot', name: '神价格-什么值得买' , list:'bmd'},
-//{ url: 'https://faxian.smzdm.com/json_more?filter=h2s0t0f0c1&page=1', type: 'hot', name: '3h热门' , list:'bmd'},
-//{ url: 'https://faxian.smzdm.com/json_more?filter=h2s0t0f0c1&page=2', type: 'hot', name: '3h热门' , list:'bmd'},
-//{ url: 'https://faxian.smzdm.com/json_more?filter=h3s0t0f0c1&page=1', type: 'hot', name: '12h热门' , list:'bmd'},
-//{ url: 'https://faxian.smzdm.com/json_more?filter=h3s0t0f0c1&page=2', type: 'hot', name: '12h热门' , list:'bmd'},
-//{ url: 'https://faxian.smzdm.com/json_more?filter=h4s0t0f0c1&page=1', type: 'hot', name: '24h热门' , list:'bmd'},
-//{ url: 'https://faxian.smzdm.com/json_more?filter=h4s0t0f0c1&page=2', type: 'hot', name: '24h热门' , list:'bmd'},
+{ url: 'https://faxian.smzdm.com/json_more?filter=&page=1', type: 'hot', name: '什么值得买' , list:'bmd'},
