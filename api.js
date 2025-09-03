@@ -1,5 +1,5 @@
 // 精选内容 (首页和精选页面) - 更新API接口
-{ url: 'https://new.xianbao.fun/plus/json/rank/yixiaoshi-hot.json', type: 'xianbao', name: '线报网热门', list:'bmd' },
+{ url: 'https://new.xianbao.fun/plus/json/push.json', type: 'xianbao', name: '线报网热门', list:'bmd' },
 { url: 'https://new.xianbao.fun/plus/json/rank/zuankeba-hot.json', type: 'xianbao', name: '线报网热门' , list:'bmd'},
 { url: 'https://new.xianbao.fun/plus/json/push_10.json', type: 'xianbao', name: '线报网热门', list:'bmd' },
 { url: 'https://m.smzdm.com/damo_theme/more_page?tag_id=t8joxpm&page=1&size=20&damo_hash_id=ay11g6z&damo_type=theme&tabs=%7B%22id%22%3A1732778802150%2C%22day%22%3A0%2C%22tab_type%22%3A%226%22%2C%22channel_ids%22%3A%2276%2C801%2C802%2C154%2C3%22%2C%22sort%22%3A%221%22%2C%22sub_tab%22%3A%7B%22id%22%3A1739168096519%2C%22channel_ids%22%3A%2276%2C801%2C154%2C3%2C802%22%2C%22sort%22%3A%221%22%7D%7D&f=web&device_id=', type: 'hot', name: '绝对值-什么值得买' , list:'bmd'},
