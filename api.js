@@ -1,3 +1,4 @@
+{ url: 'https://www.hxm5.com/s/%E5%B0%8F%E7%B1%B317/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-速度', list: 'hmd',int: "220"},
 { url: 'https://www.hxm5.com/s/iphone%2017/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-速度', list: 'hmd',int: "220"},
 { url: 'https://www.hxm5.com/s/%E9%80%9F%E5%BA%A6/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-速度', list: 'hmd',int: "220"},
 { url: 'https://www.hxm5.com/s/bug%E4%BB%B7/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-bug价', list: 'hmd',int: "220"},
