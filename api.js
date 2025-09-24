@@ -1,3 +1,4 @@
+{ url: 'https://www.hxm5.com/s/iphone%2017/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-速度', list: 'hmd',int: "220"},
 { url: 'https://www.hxm5.com/s/%E9%80%9F%E5%BA%A6/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-速度', list: 'hmd',int: "220"},
 { url: 'https://www.hxm5.com/s/bug%E4%BB%B7/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-bug价', list: 'hmd',int: "220"},
 { url: 'https://new.xianbao.fun/plus/json/push.json', type: 'xianbao', name: '线报网-全部', list:'bmd' ,int:"100"},  
