@@ -25,11 +25,3 @@
 { url: 'https://new.xianbao.fun/plus/json/push_18.json', type: 'xianbao', name: '线报网-新赚吧', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_19.json', type: 'xianbao', name: '线报网-什么值得买', list:'bmd' ,int:"200"},
 { url: 'https://new.xianbao.fun/plus/json/push_23.json', type: 'xianbao', name: '线报网-豆瓣线报', list:'bmd' ,int:"220"},
-
-// 导出配置（支持多种格式）
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = API_URLS;
-}
-
-// 也可以直接返回数组
-API_URLS;
