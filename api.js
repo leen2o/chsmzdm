@@ -6,3 +6,5 @@
 { url: 'https://new.xianbao.fun/plus/json/push_18.json', type: 'xianbao', name: '线报网-新赚吧', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_19.json', type: 'xianbao', name: '线报网-什么值得买', list:'bmd' ,int:"200"},
 { url: 'https://new.xianbao.fun/plus/json/push_23.json', type: 'xianbao', name: '线报网-豆瓣线报', list:'bmd' ,int:"220"},
+{ url: 'https://www.hxm5.com/s/bug%E4%BB%B7/', type: 'web', xp_t:'//li[@class="card"]/a/h2',xp_u:'//li[@class="card"]/a/@href',pre_u:'',name: '线报屋-bug价', list:'hmd' ,int:"220"},
+{ url: 'https://www.hxm5.com/s/bug%E4%BB%B7/', type: 'web', reg_t:'<h2>(.*?)</h2>',reg_u:'<h2>(.*?)</h2>',pre_u:'',name: '线报屋-bug价', list:'hmd' ,int:"220"},
