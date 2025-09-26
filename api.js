@@ -1,3 +1,4 @@
+{ url: 'https://www.jssjw.gov.cn/col/col232/index.html', type: 'web', xp_t: '//ul/li/a',xp_u: '//ul/li/a/@href',pre_u: '',name: '清风扬帆网', list: 'hmd',int: "300"},
 { url: 'https://www.hxm5.com/s/%E5%A4%A7%E6%AF%9B/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-大毛', list: 'hmd',int: "120"},
 { url: 'https://www.hxm5.com/s/%E5%B0%8F%E7%B1%B317/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-小米17', list: 'hmd',int: "120"},
 { url: 'https://www.hxm5.com/s/iphone%2017/', type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-iphone17', list: 'hmd',int: "120"},
