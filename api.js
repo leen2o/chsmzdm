@@ -1,3 +1,10 @@
+{ url: 'https://new.xianbao.fun/plus/json/push.json', fy:"false" , type: 'xianbao', name: '线报网-全部', list:'bmd' ,int:"100"},  
+{ url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '线报网-微博线报', list:'bmd' ,int:"120"},
+{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '线报网-小嘀咕', list:'bmd' ,int:"140"},
+{ url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '线报网-赚客吧', list:'bmd' ,int:"160"},
+{ url: 'https://new.xianbao.fun/plus/json/push_18.json', fy:"false" , type: 'xianbao', name: '线报网-新赚吧', list:'bmd' ,int:"180"},
+{ url: 'https://new.xianbao.fun/plus/json/push_19.json', fy:"false" , type: 'xianbao', name: '线报网-什么值得买', list:'bmd' ,int:"200"},
+{ url: 'https://new.xianbao.fun/plus/json/push_23.json', fy:"false" , type: 'xianbao', name: '线报网-豆瓣线报', list:'bmd' ,int:"220"}, 
 { url: 'https://api-one-wscn.awtmt.com/apiv1/content/information-flow?channel=global&accept=article&cursor=&limit=20&action=upglide', fy:"false" ,type: 'web', reg_t: '"title":"([^"]*?)","uri":"[^"]*?"',reg_u: '"title":"[^"]*?","uri":"([^"]*?)"',pre_u: '',name: '华尔街见闻', list: 'hmd',int: "300"}
 { url: 'https://openrouter.ai/announcements', fy:"true" , type: 'web', reg_t: '<h2 class="[^"]*?">([^"]*?)</h2>',reg_u: '<a href="([^"]*?)"><div class="group',pre_u: 'https://openrouter.ai',name: 'Openrouter', list: 'hmd',int: "600"}
 { url: 'https://www.qianggou5.com/price/', fy:"false" ,type: 'web', reg_t: '<div class="span7"><b>最后更新时间：</b>&nbsp;(.*?)</div><div class="span2">',reg_u: '<div class="span7"><b>最后更新时间：</b>&nbsp;(.*?)</div><div class="span2">',pre_u: 'https://www.qianggou5.com/price/#',name: '手机行情报价更新', list: 'hmd',int: "600"}
