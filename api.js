@@ -1,10 +1,3 @@
-//{ url: 'https://new.xianbao.fun/plus/json/push.json', fy:"false" , type: 'xianbao', name: '线报网-全部', list:'bmd' ,int:"100"},  
-//{ url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '线报网-微博线报', list:'bmd' ,int:"120"},
-//{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '线报网-小嘀咕', list:'bmd' ,int:"140"},
-{ url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '线报网-赚客吧', list:'bmd' ,int:"160"},
-//{ url: 'https://new.xianbao.fun/plus/json/push_18.json', fy:"false" , type: 'xianbao', name: '线报网-新赚吧', list:'bmd' ,int:"180"},
-//{ url: 'https://new.xianbao.fun/plus/json/push_19.json', fy:"false" , type: 'xianbao', name: '线报网-什么值得买', list:'bmd' ,int:"200"},
-//{ url: 'https://new.xianbao.fun/plus/json/push_23.json', fy:"false" , type: 'xianbao', name: '线报网-豆瓣线报', list:'bmd' ,int:"220"}, 
 { url: 'https://www.foxnews.com/category/world/world-regions/china', fy:"true" , type: 'web', reg_t: '<h4 class="title"><a href="[^"]*?">([^<]*?)</a></h4>',reg_u: '<h4 class="title"><a href="([^"]*?)">[^<]*?</a></h4>',pre_u: 'https://www.foxnews.com/',name: 'Fox News', list: 'hmd',int: "600"}
 { url: 'https://api-one-wscn.awtmt.com/apiv1/content/information-flow?channel=global&accept=article&cursor=&limit=20&action=upglide', fy:"false" ,type: 'web', reg_t: '"title":"([^"]*?)","uri":"[^"]*?"',reg_u: '"title":"[^"]*?","uri":"([^"]*?)"',pre_u: '',name: '华尔街见闻', list: 'hmd',int: "300"}
 { url: 'https://openrouter.ai/announcements', fy:"true" , type: 'web', reg_t: '<h2 class="[^"]*?">([^"]*?)</h2>',reg_u: '<a href="([^"]*?)"><div class="group',pre_u: 'https://openrouter.ai',name: 'Openrouter', list: 'hmd',int: "600"}
@@ -15,6 +8,13 @@
 { url: 'https://gemini.google/release-notes/', fy:"true" ,type: 'web', reg_t: '</h1>(.*?)<h3',reg_u: '</h1>(.*?)<h3',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "1200"}
 { url: 'https://www.lianshi.gov.cn/NewsList/16.html', fy:"false" ,type: 'web', reg_t: '<span class=["\']list_news_bt["\']><a href=["\'].*?["\'] target=["\']_blank["\']>(.*?)</a>',reg_u: '<span class=["\']list_news_bt["\']><a href=["\'](.*?)["\'] target=["\']_blank["\']>.*?</a>',pre_u: 'https://www.lianshi.gov.cn/',name: '廉石', list: 'hmd',int: "600"},
 { url: 'https://www.jssjw.gov.cn/col/col232/index.html', fy:"false" ,type: 'web', reg_t: 'href=["\'].*?["\'] class=["\']bt_link["\'] title=["\'](.*?)["\'] target=["\']_blank["\']>',reg_u: 'href=["\'](.*?)["\'] class=["\']bt_link["\'] title=".*?" target=["\']_blank["\']>',pre_u: 'https://www.jssjw.gov.cn',name: '清风扬帆', list: 'hmd',int: "600"},
+{ url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '线报网-赚客吧', list:'bmd' ,int:"160"},
+//{ url: 'https://new.xianbao.fun/plus/json/push.json', fy:"false" , type: 'xianbao', name: '线报网-全部', list:'bmd' ,int:"100"},  
+//{ url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '线报网-微博线报', list:'bmd' ,int:"120"},
+//{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '线报网-小嘀咕', list:'bmd' ,int:"140"},
+//{ url: 'https://new.xianbao.fun/plus/json/push_18.json', fy:"false" , type: 'xianbao', name: '线报网-新赚吧', list:'bmd' ,int:"180"},
+//{ url: 'https://new.xianbao.fun/plus/json/push_19.json', fy:"false" , type: 'xianbao', name: '线报网-什么值得买', list:'bmd' ,int:"200"},
+//{ url: 'https://new.xianbao.fun/plus/json/push_23.json', fy:"false" , type: 'xianbao', name: '线报网-豆瓣线报', list:'bmd' ,int:"220"}, 
 //{ url: 'https://www.hxm5.com/s/%E5%A4%A7%E6%AF%9B/', fy:"false" ,type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-大毛', list: 'hmd',int: "120"},
 //{ url: 'https://www.hxm5.com/s/%E5%B0%8F%E7%B1%B317/', fy:"false" ,type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-小米17', list: 'hmd',int: "120"},
 //{ url: 'https://www.hxm5.com/s/iphone%2017/', fy:"false" ,type: 'web', xp_t: '//li[@class="card"]/a/h2',xp_u: '//li[@class="card"]/a/@href',pre_u: 'https://www.hxm5.com',name: '线报屋-iphone17', list: 'hmd',int: "150"},
