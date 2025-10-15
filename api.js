@@ -10,10 +10,10 @@
 { url: 'https://gemini.google/release-notes/', fy:"true" ,type: 'web', reg_t: '</h1>(.*?)<h3',reg_u: '</h1>(.*?)<h3',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "1200"}
 { url: 'https://www.lianshi.gov.cn/NewsList/16.html', fy:"false" ,type: 'web', reg_t: '<span class=["\']list_news_bt["\']><a href=["\'].*?["\'] target=["\']_blank["\']>(.*?)</a>',reg_u: '<span class=["\']list_news_bt["\']><a href=["\'](.*?)["\'] target=["\']_blank["\']>.*?</a>',pre_u: 'https://www.lianshi.gov.cn/',name: '廉石', list: 'hmd',int: "600"},
 { url: 'https://www.jssjw.gov.cn/col/col232/index.html', fy:"false" ,type: 'web', reg_t: 'href=["\'].*?["\'] class=["\']bt_link["\'] title=["\'](.*?)["\'] target=["\']_blank["\']>',reg_u: 'href=["\'](.*?)["\'] class=["\']bt_link["\'] title=".*?" target=["\']_blank["\']>',pre_u: 'https://www.jssjw.gov.cn',name: '清风扬帆', list: 'hmd',int: "600"},
-{ url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '线报网-赚客吧', list:'bmd' ,int:"160"},
+{ url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '线报网-赚客吧', list:'bmd' ,int:"180"},
 //{ url: 'https://new.xianbao.fun/plus/json/push.json', fy:"false" , type: 'xianbao', name: '线报网-全部', list:'bmd' ,int:"100"},  
-{ url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '线报网-微博线报', list:'bmd' ,int:"120"},
-{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '线报网-小嘀咕', list:'bmd' ,int:"140"},
+{ url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '线报网-微博线报', list:'bmd' ,int:"180"},
+{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '线报网-小嘀咕', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_18.json', fy:"false" , type: 'xianbao', name: '线报网-新赚吧', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_23.json', fy:"false" , type: 'xianbao', name: '线报网-豆瓣线报', list:'bmd' ,int:"220"}, 
 //{ url: 'https://new.xianbao.fun/plus/json/push_19.json', fy:"false" , type: 'xianbao', name: '线报网-什么值得买', list:'bmd' ,int:"200"},
