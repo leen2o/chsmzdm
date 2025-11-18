@@ -17,6 +17,6 @@
 //购物
 { url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '赚客吧', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '微博线报', list:'bmd' ,int:"180"},
-{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '小嘀咕', list:'bmd' ,int:"180"},
+//{ url: 'https://new.xianbao.fun/plus/json/push_11.json', fy:"false" , type: 'xianbao', name: '小嘀咕', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_18.json', fy:"false" , type: 'xianbao', name: '新赚吧', list:'bmd' ,int:"180"},
 { url: 'https://new.xianbao.fun/plus/json/push_23.json', fy:"false" , type: 'xianbao', name: '豆瓣线报', list:'bmd' ,int:"220"}, 
