@@ -6,7 +6,6 @@
 { url: 'https://news.google.com/rss/search?q=intitle:china+site:bbc.com&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'BBC', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=intitle:china+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Bloomberg', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=intitle:china+site:whitehouse.gov&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Whitehouse', list: 'hmd',int: "600"}
-{ url: 'https://news.google.com/rss/search?q=intitle:china+site:foxnews.com&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Fox News', list: 'hmd',int: "600"}
 { url: 'https://gemini.google/release-notes/', fy:"true" ,type: 'web', reg_t: '<h2 class="[^"]*?">([^<]*?)</h2>',reg_u: '<h2 class="[^"]*?">([^<]*?)</h2>',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "600"}
 //购物
 { url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '赚客吧', list:'bmd' ,int:"300"},
@@ -22,3 +21,4 @@
 //{ url: 'https://www.douban.com/feed/review/movie', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '电影即将上映', list: 'hmd',int: "600"}
 //{ url: 'https://news.google.com/rss/search?q=intitle:Cambodia+china&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
 //{ url: 'https://news.google.com/rss/search?q=intitle:vanke&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '万科', list: 'hmd',int: "600"}
+//{ url: 'https://news.google.com/rss/search?q=intitle:china+site:foxnews.com&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Fox News', list: 'hmd',int: "600"}
