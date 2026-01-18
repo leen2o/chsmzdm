@@ -1,3 +1,4 @@
+{ url: 'https://tophub.today/topics', fy:"false" , type: 'web', reg_t: '<h3>([^<]*?)</h3>',reg_u: '<h3>([^<]*?)</h3>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '热门话题', list: 'hmd',int: "300"}
 //谷歌
 { url: 'https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JYcG9MVU5PR2dKRFRpZ0FQAQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans&oc=11', fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '要闻', list: 'hmd',int: "300"}
 { url: 'https://news.google.com/rss/search?q=site:boyucapital.com&hl=en-US&gl=US&ceid=US:en', fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '博裕资本', list: 'hmd',int: "600"}
