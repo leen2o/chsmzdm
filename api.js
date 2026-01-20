@@ -3,6 +3,7 @@
 { url: 'https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JYcG9MVU5PR2dKRFRpZ0FQAQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans&oc=11', fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '要闻', list: 'hmd',int: "300"}
 { url: 'https://gemini.google/release-notes/', fy:"true" ,type: 'web', reg_t: '<h2 class="[^"]*?">([^<]*?)</h2>',reg_u: '<h2 class="[^"]*?">([^<]*?)</h2>',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "600"}
 //购物
+{ url: 'https://new.xianbao.fun/plus/json/push_19.json', fy:"false" , type: 'xianbao', name: '什么值得买', list:'bmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_16.json', fy:"false" , type: 'xianbao', name: '赚客吧', list:'bmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_10.json', fy:"false" , type: 'xianbao', name: '微博线报', list:'bmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_18.json', fy:"false" , type: 'xianbao', name: '新赚吧', list:'bmd' ,int:"300"},
