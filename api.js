@@ -1,7 +1,7 @@
 //谷歌
-{ url: 'https://news.google.com/rss/search?q=突发+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '突发', list: 'hmd',int: "600"}
-{ url: 'https://news.google.com/rss/search?q=被查+OR+纪律审查+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '被查', list: 'hmd',int: "600"}
-{ url: 'https://news.google.com/rss/search?q=breaking news+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '突发新闻', list: 'hmd',int: "600"}
+{ url: 'https://news.google.com/rss/search?q=突发+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '突发新闻', list: 'hmd',int: "600"}
+{ url: 'https://news.google.com/rss/search?q=被查+OR+纪律审查+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '反腐风暴', list: 'hmd',int: "600"}
+{ url: 'https://news.google.com/rss/search?q=breaking news+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Breaking', list: 'hmd',int: "600"}
 { url: 'https://gemini.google/release-notes/', push:"true", fy:"true" ,type: 'web', reg_t: '<h2 class="[^"]*?">([^<]*?)</h2>',reg_u: '<h2 class="[^"]*?">([^<]*?)</h2>',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "600"}
 //其他
 { url: 'https://www.lianshi.gov.cn/NewsList/16.html', push:"true", fy:"false" ,type: 'web', reg_t: '<span class=["\']list_news_bt["\']><a href=["\'].*?["\'] target=["\']_blank["\']>(.*?)</a>',reg_u: '<span class=["\']list_news_bt["\']><a href=["\'](.*?)["\'] target=["\']_blank["\']>.*?</a>',pre_u: 'https://www.lianshi.gov.cn',name: '廉石', list: 'hmd',int: "3000"},
