@@ -1,6 +1,7 @@
 { url: 'https://tophub.today/topics', push:"true",fy:"false" , type: 'web', reg_t: '<h3>([^<]*?)</h3>',reg_u: '<h3>([^<]*?)</h3>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '热门话题', list: 'hmd',int: "300"}
 //谷歌
-{ url: 'https://news.google.com/rss/search?q=intitle:breaking news+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
+{ url: 'https://news.google.com/rss/search?q=intitle:突发+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
+{ url: 'https://news.google.com/rss/search?q=intitle:breaking news+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '突发新闻', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JYcG9MVU5PR2dKRFRpZ0FQAQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans&oc=11', push:"true", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '要闻', list: 'hmd',int: "300"}
 { url: 'https://gemini.google/release-notes/', push:"true", fy:"true" ,type: 'web', reg_t: '<h2 class="[^"]*?">([^<]*?)</h2>',reg_u: '<h2 class="[^"]*?">([^<]*?)</h2>',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "600"}
 //购物
