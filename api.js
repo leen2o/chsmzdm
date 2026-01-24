@@ -1,4 +1,3 @@
-{ url: 'https://tophub.today/topics', push:"false",fy:"false" , type: 'web', reg_t: '<h3>([^<]*?)</h3>',reg_u: '<h3>([^<]*?)</h3>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '热门话题', list: 'hmd',int: "300"}
 //谷歌
 { url: 'https://news.google.com/rss/search?q=突发+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=被查+OR+纪律审查+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
@@ -11,6 +10,7 @@
 { url: 'https://www.jssjw.gov.cn/col/col232/index.html', push:"true", fy:"false" ,type: 'web', reg_t: 'href=["\'].*?["\'] class=["\']bt_link["\'] title=["\'](.*?)["\'] target=["\']_blank["\']>',reg_u: 'href=["\'](.*?)["\'] class=["\']bt_link["\'] title=["\'].*?["\'] target=["\']_blank["\']>',pre_u: 'https://www.jssjw.gov.cn',name: '清风扬帆', list: 'hmd',int: "3000"},
 { url: 'https://openrouter.ai/', push:"true", fy:"true" , type: 'web', reg_t: '<h3 class="group-hover/card:text-slate-12 duration-200 text-lg font-medium transition-colors">([^"]*?)</h3>',reg_u: '<a class="group" href="([^"]*?)">',pre_u: 'https://openrouter.ai',name: 'Openrouter', list: 'hmd',int: "600"}
 //不推送
+{ url: 'https://tophub.today/topics', push:"false",fy:"false" , type: 'web', reg_t: '<h3>([^<]*?)</h3>',reg_u: '<h3>([^<]*?)</h3>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '热门话题', list: 'hmd',int: "300"}
 { url: 'https://api-one-wscn.awtmt.com/apiv1/content/information-flow?channel=global&accept=article&cursor=&limit=100&action=upglide', push:"false", fy:"false" ,type: 'web', reg_t: '"title":"([^"]*?)","uri":"[^"]*?"',reg_u: '"title":"[^"]*?","uri":"([^"]*?)"',pre_u: '',name: '华尔街见闻', list: 'hmd',int: "600"}
 { url: 'https://new.xianbao.fun/plus/json/push_19.json', push:"false", fy:"false" , type: 'xianbao', name: '什么值得买', list:'hmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_16.json', push:"false", fy:"false" , type: 'xianbao', name: '赚客吧', list:'hmd' ,int:"300"},
