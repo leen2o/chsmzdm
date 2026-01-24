@@ -4,18 +4,18 @@
 { url: 'https://news.google.com/rss/search?q=intitle:breaking news+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"true", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '突发新闻', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JYcG9MVU5PR2dKRFRpZ0FQAQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans&oc=11', push:"true", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '要闻', list: 'hmd',int: "300"}
 { url: 'https://gemini.google/release-notes/', push:"true", fy:"true" ,type: 'web', reg_t: '<h2 class="[^"]*?">([^<]*?)</h2>',reg_u: '<h2 class="[^"]*?">([^<]*?)</h2>',pre_u: 'https://gemini.google/release-notes/#',name: 'gemini更新', list: 'hmd',int: "600"}
-//购物
-{ url: 'https://new.xianbao.fun/plus/json/push_19.json', push:"true", fy:"false" , type: 'xianbao', name: '什么值得买', list:'bmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_16.json', push:"true", fy:"false" , type: 'xianbao', name: '赚客吧', list:'bmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_10.json', push:"true", fy:"false" , type: 'xianbao', name: '微博线报', list:'bmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_18.json', push:"true", fy:"false" , type: 'xianbao', name: '新赚吧', list:'bmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_23.json', push:"true", fy:"false" , type: 'xianbao', name: '豆瓣线报', list:'bmd' ,int:"300"}, 
+
 //其他
 { url: 'https://www.lianshi.gov.cn/NewsList/16.html', push:"true", fy:"false" ,type: 'web', reg_t: '<span class=["\']list_news_bt["\']><a href=["\'].*?["\'] target=["\']_blank["\']>(.*?)</a>',reg_u: '<span class=["\']list_news_bt["\']><a href=["\'](.*?)["\'] target=["\']_blank["\']>.*?</a>',pre_u: 'https://www.lianshi.gov.cn',name: '廉石', list: 'hmd',int: "3000"},
 { url: 'https://www.jssjw.gov.cn/col/col232/index.html', push:"true", fy:"false" ,type: 'web', reg_t: 'href=["\'].*?["\'] class=["\']bt_link["\'] title=["\'](.*?)["\'] target=["\']_blank["\']>',reg_u: 'href=["\'](.*?)["\'] class=["\']bt_link["\'] title=["\'].*?["\'] target=["\']_blank["\']>',pre_u: 'https://www.jssjw.gov.cn',name: '清风扬帆', list: 'hmd',int: "3000"},
 { url: 'https://openrouter.ai/', push:"true", fy:"true" , type: 'web', reg_t: '<h3 class="group-hover/card:text-slate-12 duration-200 text-lg font-medium transition-colors">([^"]*?)</h3>',reg_u: '<a class="group" href="([^"]*?)">',pre_u: 'https://openrouter.ai',name: 'Openrouter', list: 'hmd',int: "600"}
-//{ url: 'https://api-one-wscn.awtmt.com/apiv1/content/information-flow?channel=global&accept=article&cursor=&limit=20&action=upglide', fy:"false" ,type: 'web', reg_t: '"title":"([^"]*?)","uri":"[^"]*?"',reg_u: '"title":"[^"]*?","uri":"([^"]*?)"',pre_u: '',name: '华尔街见闻', list: 'hmd',int: "600"}
 //不推送
+{ url: 'https://api-one-wscn.awtmt.com/apiv1/content/information-flow?channel=global&accept=article&cursor=&limit=100&action=upglide', push:"false", fy:"false" ,type: 'web', reg_t: '"title":"([^"]*?)","uri":"[^"]*?"',reg_u: '"title":"[^"]*?","uri":"([^"]*?)"',pre_u: '',name: '华尔街见闻', list: 'hmd',int: "600"}
+{ url: 'https://new.xianbao.fun/plus/json/push_19.json', push:"false", fy:"false" , type: 'xianbao', name: '什么值得买', list:'hmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_16.json', push:"false", fy:"false" , type: 'xianbao', name: '赚客吧', list:'hmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_10.json', push:"false", fy:"false" , type: 'xianbao', name: '微博线报', list:'hmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_18.json', push:"false", fy:"false" , type: 'xianbao', name: '新赚吧', list:'hmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_23.json', push:"false", fy:"false" , type: 'xianbao', name: '豆瓣线报', list:'hmd' ,int:"300"}, 
 { url: 'https://www.douban.com/feed/review/movie', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '电影即将上映', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=intitle:Cambodia+china+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=intitle:vanke+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '万科', list: 'hmd',int: "600"}
