@@ -10,11 +10,11 @@
 { url: 'https://news.google.com/rss/search?q=突发新闻+-site:binance.com+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"false", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '突发新闻', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=intitle:被查+OR+intitle:纪律审查+after:2026-01-01&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', push:"false", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '反腐风暴', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/search?q=breaking news+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Breaking', list: 'hmd',int: "600"}
-{ url: 'https://new.xianbao.fun/plus/json/push_19.json', push:"false", fy:"false" , type: 'xianbao', name: '什么值得买', list:'hmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_16.json', push:"false", fy:"false" , type: 'xianbao', name: '赚客吧', list:'hmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_10.json', push:"false", fy:"false" , type: 'xianbao', name: '微博线报', list:'hmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_18.json', push:"false", fy:"false" , type: 'xianbao', name: '新赚吧', list:'hmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_23.json', push:"false", fy:"false" , type: 'xianbao', name: '豆瓣线报', list:'hmd' ,int:"300"}, 
+{ url: 'https://new.xianbao.fun/plus/json/push_19.json', push:"false", fy:"false" , type: 'xianbao', name: '什么值得买', list:'bmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_16.json', push:"false", fy:"false" , type: 'xianbao', name: '赚客吧', list:'bmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_10.json', push:"false", fy:"false" , type: 'xianbao', name: '微博线报', list:'bmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_18.json', push:"false", fy:"false" , type: 'xianbao', name: '新赚吧', list:'bmd' ,int:"300"},
+{ url: 'https://new.xianbao.fun/plus/json/push_23.json', push:"false", fy:"false" , type: 'xianbao', name: '豆瓣线报', list:'bmd' ,int:"300"}, 
 { url: 'https://www.douban.com/feed/review/movie', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '电影即将上映', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JYcG9MVU5PR2dKRFRpZ0FQAQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans&oc=11', push:"false", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '谷歌要闻', list: 'hmd',int: "300"}
 { url: 'https://news.google.com/rss/search?q=iran+AND+attack+after:2026-01-01&hl=en-US&gl=US&ceid=US:en', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: 'Cambodia', list: 'hmd',int: "600"}
