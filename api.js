@@ -13,7 +13,6 @@
 { url: 'https://new.xianbao.fun/plus/json/push_19.json', push:"false", fy:"false" , type: 'xianbao', name: '什么值得买', list:'bmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_16.json', push:"false", fy:"false" , type: 'xianbao', name: '赚客吧', list:'bmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_10.json', push:"false", fy:"false" , type: 'xianbao', name: '微博线报', list:'bmd' ,int:"300"},
-{ url: 'https://new.xianbao.fun/plus/json/push_18.json', push:"false", fy:"false" , type: 'xianbao', name: '新赚吧', list:'bmd' ,int:"300"},
 { url: 'https://new.xianbao.fun/plus/json/push_23.json', push:"false", fy:"false" , type: 'xianbao', name: '豆瓣线报', list:'bmd' ,int:"300"}, 
 { url: 'https://www.douban.com/feed/review/movie', push:"false", fy:"true" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: 'https://www.google.com/search?hl=zh-cn&newwindow=1&sca_esv=&sxsrf=&source=hp&ei=&iflsig=&aep=22&udm=50&ved=&oq=&gs_lp=&sclient=gws-wiz&mstk=&csuir=1&mtid=&q=中文回复：',name: '电影即将上映', list: 'hmd',int: "600"}
 { url: 'https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JYcG9MVU5PR2dKRFRpZ0FQAQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans&oc=11', push:"false", fy:"false" , type: 'web', reg_t: '<title>([^<]*?)</title>',reg_u: '<link>([^<]*?)</link>',pre_u: '',name: '谷歌要闻', list: 'hmd',int: "300"}
