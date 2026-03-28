@@ -1,5 +1,3 @@
 //推送
 { url: 'https://api-one-wscn.awtmt.com/apiv1/search/live?channel=global-channel&limit=20&score=2', push:"true", fy:"false" ,type: 'web', reg_t: '"content_text":"([^"]*?)"',reg_u: '"uri":"([^"]*?)"',pre_u: '',name: '华尔街要闻', list: 'hmd',int: "300"}
-{ url: 'https://gemini.google/us/release-notes/?hl=en', push:"true", fy:"true" ,type: 'web', reg_t: '<h2 class="[^"]*?">([^<]*?)</h2>',reg_u: '<h2 class="[^"]*?">([^<]*?)</h2>',pre_u: 'https://gemini.google/us/release-notes/?hl=en#',name: 'gemini更新', list: 'hmd',int: "600"}
 { url: 'https://www.jssjw.gov.cn/col/col232/index.html', push:"true", fy:"false" ,type: 'web', reg_t: 'href=["\'].*?["\'] class=["\']bt_link["\'] title=["\'](.*?)["\'] target=["\']_blank["\']>',reg_u: 'href=["\'](.*?)["\'] class=["\']bt_link["\'] title=["\'].*?["\'] target=["\']_blank["\']>',pre_u: 'https://www.jssjw.gov.cn',name: '清风扬帆', list: 'hmd',int: "3000"},
-{ url: 'https://openrouter.ai/', push:"true", fy:"true" , type: 'web', reg_t: '<h3 class="[^"]*?">([^"]*?)</h3>',reg_u: '<a class="group" href="([^"]*?)">',pre_u: 'https://openrouter.ai',name: 'Openrouter', list: 'hmd',int: "600"}
